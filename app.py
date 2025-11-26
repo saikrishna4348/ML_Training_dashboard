@@ -39,9 +39,9 @@ except ImportError:
     HAS_LIGHTGBM = False
 
 
-st.set_page_config(page_title="ML Model Training UI", layout="wide")
+st.set_page_config(page_title="ML Studio", layout="wide")
 
-st.title("🧠 ML Model Training UI")
+st.title("ML Studio")
 st.write(
     "Upload a CSV, select a model, train, evaluate with metrics, plot results, save the model, and run inference."
 )
